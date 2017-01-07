@@ -10,7 +10,7 @@ html, body {
 }
 
 .three-boxes {
-  
+  display: inline-box;
 }
 
 .box {
