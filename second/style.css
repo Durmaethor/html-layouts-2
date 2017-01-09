@@ -6,6 +6,9 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: #D8D8D8;
+    font-family: arial;
+    font-size: 14px;
+    line-height: 2;
 }
 
 .box1, .box2 {
@@ -15,17 +18,38 @@ html, body {
 }
 
 .box1 {
-    height: 250px;
+    height: 300px;
 }
 
 .box2 {
-    height: 600px;
+    
+    height: 650px;
     padding: 25px;
 }
 
 p {
     margin: 0;
     padding: 25px;
+}
+
+.button-container {
+    margin-left: 20px;
+}
+
+.button1, .button2 {
+    font-size: 18px;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    margin: 5px;
+}
+
+.button1 {
+    background-color: #D0021B;
+}
+
+.button2 {
+    background-color: #4A90E2;
 }
 
 .p2 {
@@ -36,6 +60,13 @@ p {
 .grey-box {
     height: 400px;
     background-color: #4A4A4A;
+}
+
+.img-text {
+    text-align: center;
+    color: white;
+    padding: 175px;
+    font-size: 24px;
 }
 
 footer {
